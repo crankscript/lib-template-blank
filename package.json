@@ -1,0 +1,23 @@
+{
+    "name": "crankscript-lib-template-blank",
+    "version": "0.0.1",
+    "author": "Alberto Piu",
+    "license": "MIT",
+    "description": "A crankscript template",
+    "scripts": {
+        "transpile": "crankscript transpile --input ./src/import.ts --toybox MyLib"
+    },
+    "dependencies": {
+        "@crankscript/core": "0.2.6",
+        "@crankscript/types": "0.6.0",
+        "crankscript": "0.12.0"
+    },
+    "devDependencies": {
+        "prettier": "3.3.3"
+    },
+    "peerDependencies": {
+        "lua-types": "*"
+    },
+    "types": "./Source/index.d.ts",
+    "main": "./Source/index"
+}
